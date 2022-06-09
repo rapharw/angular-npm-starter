@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-jasmine-starter';
+  title = 'angular-npm-starter';
 
   hello(value: string){
     if(value !== '')
