@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    uses: rapharw/github-wf-templates/.github/workflows/angular-npm.yaml@v0.0.13-alpha
-    with:
-      APPLICATION_RUNTIME: 'angular'
-      BUILD_COMPILE: 'npm'
+    uses: rapharw/github-wf-templates/.github/workflows/angular-npm.yaml@v0.0.14-alpha
+    secrets:
+      APPLICATION_RUNTIME: angular
+      BUILD_COMPILE: npm
