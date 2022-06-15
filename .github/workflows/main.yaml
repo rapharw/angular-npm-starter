@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    uses: rapharw/github-wf-templates/.github/workflows/CI.yaml@v0.0.43-alpha
+    uses: rapharw/github-wf-templates/.github/workflows/CI.yaml@v0.0.44-alpha
     with:
       APPLICATION_RUNTIME: angular
       BUILD_COMPILE: npm
